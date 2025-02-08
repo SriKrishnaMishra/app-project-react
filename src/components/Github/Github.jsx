@@ -11,7 +11,9 @@ function Github() {
 
     const data = useLoaderData()
   return (
-    <div className='text-center m-4 bg-slate-500 text-white px-4 text-3xl'>Github Followers:{data.followers}</div>
+    <div className='text-center m-4 bg-slate-500 text-white px-4 text-3xl'>
+      
+      Github Followers:{data.followers}</div>
   );
 }
 
